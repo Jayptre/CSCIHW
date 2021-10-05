@@ -1,4 +1,4 @@
-package HW1;
+package HW;
 public class Replace {
 
     public static String Wrecker()

@@ -1,14 +1,14 @@
 package HW2;
 
 public class MathGames {
-    // 1. Create a method that will calculate the Pythagoras Theorem (https://en.wikipedia.org/wiki/Pythagorean_theorem)
+    // 1. Create a method that will calculate the Pythagorean Theorem (https://en.wikipedia.org/wiki/Pythagorean_theorem)
     // c = sqrt(a^2+b^2)
     // NOTE: You can assume you will only need to calculate the Hypotenuse
     // Hint 1: Method should take in 2 sides(a and b) of the triangle and return the missing side.
     //      Remember the Triangle has a base, Perpendicular, and Hypotenuse
     // Hint 2: Math.pow and Math.sqrt are your friend here
     // Bonus points: Try to make it accept any 2 sides and return the 3rd. So it can take in
-    //                  Hypotenuse and Perpendicular and return the base.
+    // Hypotenuse and Perpendicular and return the base.
 
 
 
@@ -40,6 +40,11 @@ public class MathGames {
     
  
 
+
+    // you do not need this main if you want to make a tester class
+    public static void main(String[] args) {
+        
+    }
 
 
 

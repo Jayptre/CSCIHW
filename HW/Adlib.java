@@ -1,4 +1,4 @@
-package HW1;
+package HW;
 //Adlibs HW for Jaime Petrykiewicz
 //Last Modified on 18SEP2021
 
