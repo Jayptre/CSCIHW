@@ -1,11 +1,6 @@
 <<<<<<< HEAD
 # CSCIHW
 
-P&PS1
-
-Name: Greg Walsh
-
-Fall 2021 
 =======
 ## CSCI PROGRAMMING & PROBLEM SOLVING
 # Name: Jaime Petrykiewicz
