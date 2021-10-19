@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Grading{
 
-    public static String Grades() {
+    public static void Grades() {
         Scanner sc = new Scanner(System.in);
         double grade;
         
@@ -30,5 +30,5 @@ public class Grading{
         }
         sc.close();
     
-    return "Hope you enjoyed CSCI Class!";
+    
 }}
