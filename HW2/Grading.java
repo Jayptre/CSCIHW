@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Grading{
 
-    public static void Grades() {
-        Scanner sc = new Scanner(System.in);
+    public static String Grades() {
+        Scanner gr = new Scanner(System.in);
         double grade;
         
         System.out.println("Welcome to the Grading Wizard \n Please Input the Number Grade Below");
-        grade = sc.nextDouble();
+        grade = gr.nextDouble();
         grade = Math.ceil(grade);
         if(grade<60){
             System.out.println("You received an F");
@@ -28,7 +28,7 @@ public class Grading{
         else{
             System.out.println("Sorry That is Not a Valid Input");
         }
-        sc.close();
+        
     
-    
+    return "";
 }}
