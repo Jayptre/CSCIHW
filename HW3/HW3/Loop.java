@@ -1,7 +1,7 @@
 package HW3;
 import java.util.Scanner;
 
-public class Loops {
+public class Loop {
 
     //NOTE: DO NOT change anything in the boiler plate
     //If I added default code it is meant to be there
