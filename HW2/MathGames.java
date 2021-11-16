@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+
+=======
 import java.util.Scanner;
+>>>>>>> 9ecb8aefa52e43d2747945ca57f57510bb3589b7
 
 public class MathGames {
 
@@ -76,7 +80,7 @@ public class MathGames {
         
 
 
-    // 3. Create a method that will calculate the tip on a bill
+    // 3. Create a method that will calculate the tip on a bill per person
     //      Method parameters: total bill, amount of people splitting the bill, percentage to tip.
     //      Note: I would like the total always rounded up to a whole number
     //      Hint 1: percentage can be made easier to work with if you divide by 100 so 18% is 18/100 = 0.18
@@ -103,6 +107,12 @@ public class MathGames {
         split = (int) (total/people);
         System.out.println("If you split the bill it would cost \n $" + split + " each.");
 
+<<<<<<< HEAD
+
+    // you do not need this main if you want to make a tester class
+     public static void main(String[] args){
+=======
+>>>>>>> 9ecb8aefa52e43d2747945ca57f57510bb3589b7
         
     }
 
