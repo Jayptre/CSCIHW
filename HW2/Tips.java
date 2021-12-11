@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Tips {
 
-    public static String Bill() {
+    public static void Bill() {
         
     
         Scanner key = new Scanner(System.in);
@@ -21,5 +21,7 @@ public class Tips {
         System.out.println("The total comes to $" + total);
         split = (int) (total/people);
         System.out.println("If you split the bill it would cost \n $" + split + " each.");
+
+        key.close();
     }
 }
