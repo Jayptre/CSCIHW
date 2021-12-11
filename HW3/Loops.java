@@ -20,7 +20,8 @@ public class Loops {
         int count = 0;
 
         for (int i=0; i<str.length(); i++){
-            if (str.charAt(i) == 'e') count++;
+            String sub= str.substring(i,i+1);
+            if (sub.equals("e")) count++;
         }
 
         return (count>=1 && count<=3); // <- this should be changed 
@@ -31,10 +32,16 @@ public class Loops {
     //Ex.
     //stringTimes("Code",2) ->"CodeCode"
     //stringTimes("Code",4) ->"CodeCodeCodeCode"
+
+    //start code
     public static String stringTimes(String str, int n) {
-
-
-        return null; // <- this should be changed 
+        //create string
+        String home = "work";
+        //start for loop
+        for (int i = 0; i < n; i++)
+            home += str;
+        
+        return home; // <- this should be changed 
     } 
 
     //Create a method Given a string, return the string where all of the "z"
@@ -45,7 +52,12 @@ public class Loops {
     //stringT("nozthaznks") -> "nothanks"
     //stringT("xksiazdjaasldzsajzasdz") -> "xksiadjaasldsajasdz"
     public static String stringZ(String str){
-        return null; // <- this should be changed 
+
+        String teststring = str.substring(0, 1);
+
+        String newtest = str.substring(1, str.length()-1); // this sets the parameter to not replace the 1st and last characters
+        teststring = teststring + newtest.replace("z", ""); // removes z's from the string except 1st and last
+        return teststring;
     }
 
     //Create a method that contains a while loop that allows for
@@ -73,12 +85,27 @@ public class Loops {
     // The total so far is 27.
     // Number: 0
     // TOTAL ENDED --- The total is 27.
-    public static void sums(){
+    public static void sums(){ 
+        System.out.println("Enter a Number To Be Added:");
+        System.out.println("To end enter 0");
+            while(true) {
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        int sum = 0;
+        if(number == 0)
+        break;
+        if(number != 0 ) {
+        number = input.nextInt();
+        sum += number;
+    }
+        System.out.println("Number Entered= " + number);
+        System.out.println("The Total is Now: " + sum);
+}
     }
 
     public static void main(String[] args) {
         // Add code to help test your methods here
-
+        
     }
     
 }
