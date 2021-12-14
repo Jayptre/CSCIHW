@@ -102,5 +102,6 @@ for(int i = 0;i<numbers.size();i++){
         System.out.println("\n");
         System.out.println(numbers.get(i) + "\t");
     }
+    //I just can't get it to print a matrix
 }
 }
