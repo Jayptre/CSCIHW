@@ -40,7 +40,7 @@ public class BankAccount {
         System.out.println("Amount after "+ t + " years: "+ amount);
     }
 
-    public void calcsimpInterest(double p, int t, double r){
+    public void calcsimpInterest(double p, int t, double r, int i){
         double simpleInterest = (p * t * r)/ 100;
         double amount = simpleInterest + p;
         System.out.println("Interest after " + t + " years: " + simpleInterest);
@@ -100,8 +100,9 @@ public class BankAccount {
                     if (b== 1){
                         System.out.println("Enter the amount of time you would like to hold your savings.");
                         int time = kb.nextInt();
-                    }
-                    Savingsaccount.calcsimpInterest(Savingsaccount.getBalance(), 2, 0.001, (12/4));
+                    
+                    Savingsaccount.calcsimpInterest(Savingsaccount.getBalance(), time, 0.001, (12/4));
+                    System.out.println(Savingsaccount.getBalance());
                 }
         else if(x==2){
             System.out.println("Thank you enjoy your day.");
