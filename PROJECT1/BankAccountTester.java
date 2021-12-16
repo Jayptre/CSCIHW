@@ -17,13 +17,13 @@ public class BankAccountTester {
         System.out.println(bobChecking.getBalance());
 
         // gregChecking.monthlyFee();
-
+        gregChecking.overdraftFee(15);
         System.out.println(gregChecking.getBalance());
         
         gregChecking.deposit(50000);
         gregChecking.calcInterest(gregChecking.getBalance(), 10, 0.40, 12);
-
-
+        gregChecking.calcsimpInterest(5, 5, 10);
+        gregChecking.savingsAccount();
     }
     
 }
